@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<description></description>
+	<link rel="stylesheet" type="text/css" href="..\style\style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+	<link href="..\fonts\proximanova-semibold.otf" rel="pplication/octet-stream">
+	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+	<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+	<!-- meta name="viewport" content="width=device-width, initial-scale=1"> -->
+</head>
+<body>
+	<div class="wrapper">
+		<div class="header">
+		<div class="header topbar firstbar">
+	
+			<ul class="menu leftpart">
+				<li class="menu__item logo" >
+					<a href="#">
+						<img src="../images/social-ui.svg" alt="Social ui" class="menu__item img">
+					</a>
+				</li>
+				<li class="menu__item" >
+					<a href="#">
+						<img src="../images/notifications.png" alt="notifications" class="menu__item img">
+					</a>
+				</li>
+				<li class="menu__item" >
+					<a href="#">
+						<img src="../images/users.png" alt="users" class="menu__item img"></a>
+				</li>
+				<li class="menu__item" >
+					<a href="#">
+						<img src="../images/messages-icon.svg" alt="messages" class="menu__item img">
+					</a>
+				</li>
+			</ul>
+		
+		
+			<ul class="menu rightpart">
+				
+				<li class="menu__item profile" >
+					<a href="#">
+						<div class="profile name">John Doe</div>
+						<img src="../images/user.png" alt="user" class="menu__item img">
+						<div class="profile flag">&#9660</div>
+					</a>
+				</li>
+				<li class="menu__item" >
+					<a href="#">
+						<img src="../images/search.svg" alt="search" class="menu__item img">
+					</a>
+				</li>
+				<li class="menu__item" >
+					<a href="#">
+						<img src="../images/logout.png" alt="logout" class="menu__item img">
+					</a>
+				</li>
+			</ul>
+		</div>
+<nav class="navbar">
+	<ul class="navbar__menu">
+	<li class="navbar__menu__item__current"><a href="#"> Dialogues </a></li>
+	<li class="navbar__menu__item"><a href="#"> Photos </a></li>
+	<li class="navbar__menu__item"><a href="#"> Videos </a> </li>
+	<li class="navbar__menu__item"><a href="#"> Music </a></li>
+	<li class="navbar__menu__item"><a href="#"> Communities </a></li>
+	</ul>
+</nav>
+<div class="usercard">
+	<div class="usercard__photo"><img class="usercard__photo-img" src="http://via.placeholder.com/100x100" alt="userphoto"></div>
+	<div class="usercard__profile">
+		<div class="usercard__profile__namestatus">
+			<div class="usercard__profile__namestatus-name">John Doe</div>
+			<div class="usercard__profile__namestatus-status"><i class="fas fa-check-circle"></i></div>
+		</div>
+		<div class="usercard__profile__about">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed aliqua.
+		</div>
+	</div>	
+	<div class="usercard__separator"></div>
+	<div class="usercard__metrix">
+		<div class="usercard__metrix__item">
+			<div class="usercard__metrix__item-count">1121</div>	
+			<div class="usercard__metrix__item-caption">Followers</div>
+		</div>	
+		<div class="usercard__metrix__item">
+			<div class="usercard__metrix__item-count">1121</div>	
+			<div class="usercard__metrix__item-caption">Followers</div>
+		</div>	
+		<div class="usercard__metrix__item">
+			<div class="usercard__metrix__item-count">1121</div>	
+			<div class="usercard__metrix__item-caption">Followers</div>
+		</div>	
+		<div class="usercard__metrix__item">
+			<div class="usercard__metrix__item-count">1121</div>	
+			<div class="usercard__metrix__item-caption">Followers</div>
+		</div>	
+	</div>	
+	
+	<div class="usercard__actions">
+		<div class="usercrd__actions-messageBtn">Send Message</div>
+		<div class="usercard_actions-addFriend">Add Friend</div>
+	</div>
+</div>
+<div class="blocked">
+	<div class="blocked__activity">
+		<div class="blocked__activity__field">
+			<div class="blocked__activity__field__labeling">
+				<div class="blocked__activity__field__labeling__label">Activity</div>
+				<div class="blocked__activity__field__labeling__gears"><i class="fas fa-cog"></i></div>
+			</div>
+			<div class="blocked__activity__field__boxes">
+				<div class="blocked__activity__field__boxes__photoSubmited">
+					<div class="blocked__activity__field__boxes__rightHolder">
+						<i class="fas fa-images"></i>
+						<div class="blocked__activity__field__boxes__rightHolder__separator">
+							
+						</div>
+					</div>
+					<div class="blocked__activity__field__boxes__main">
+						<div class="blocked__activity__field__boxes__main__who">
+							<a href="#">Kevin Ertan</a>
+						</div>
+						<div class="blocked__activity__field__boxes__what">
+							Added 4 photos to album <a href="#">Summer</a>
+						</div>
+						<div class="blocked__activity__field__boxes__photoContent">
+							<img src="http://via.placeholder.com/50x50" class="blocked__activity__field__photo">
+							<img src="http://via.placeholder.com/50x50" class="blocked__activity__field__photo">
+							<img src="http://via.placeholder.com/50x50" class="blocked__activity__field__photo">
+							<img src="http://via.placeholder.com/50x50" class="blocked__activity__field__photo">
+						</div>
+					</div>
+				</div>
+				<div class="blocked__activity__field__boxes__likesGiven">
+					<div class="blocked__activity__field__boxes__rightHolder">
+						<i class="fas fa-thumbs-up"></i>
+						<div class="blocked__activity__field__boxes__rightHolder__separator">
+						</div>
+					</div>
+					<div class="blocked__activity__field__boxes__main">
+						<div class="blocked__activity__field__boxes__what">
+								<a href="#">John Doe</a> liked 2 photos of <a href="#">Alex Wayne</a>
+						</div>
+						<div class="blocked__activity__field__boxes__photoContent">
+								<img src="http://via.placeholder.com/50x50" class="blocked__activity__field__photo">
+								<img src="http://via.placeholder.com/50x50" class="blocked__activity__field__photo">
+						</div>
+					</div>
+				</div>
+				<div class="blocked__activity__field__boxes__friendsAdded">
+					<div class="blocked__activity__field__boxes__rightHolder">
+						<i class="fas fa-users"></i>
+						<div class="blocked__activity__field__boxes__rightHolder__separator">
+						</div>
+					</div>
+					<div class="blocked__activity__field__boxes__main">
+						<div class="blocked__activity__field__boxes__what">
+								<a href="#">John Doe</a> added <a href="#">Alex Wayne</a> to friends
+						</div>
+					</div>
+				</div>
+				<div class="blocked__activity__field__boxes__shedule">
+					<div class="blocked__activity__field__boxes__rightHolder">
+						<i class="far fa-calendar"></i>
+						<div class="blocked__activity__field__boxes__rightHolder__separator">
+						</div>
+					</div>
+					<div class="blocked__activity__field__boxes__main">
+						<div class="blocked__activity__field__boxes__what">
+								<a href="#">Alex Gilev</a> created the <a href="#">Bowling</a> event
+						</div>
+					</div>
+				</div>
+				<div class="blocked__activity__field__boxes__linksShared">
+					<div class="blocked__activity__field__boxes__rightHolder">
+						<i class="fas fa-bullhorn"></i>
+						
+					</div>
+					<div class="blocked__activity__field__boxes__main">
+						<div class="blocked__activity__field__boxes__what">
+								<a href="#">David Vane</a> shared a link:
+						</div>
+						<div class="sharedLink">
+							<div class="sharedLinkPhoto">
+								<img src="http://via.placeholder.com/50x50" class="blocked__activity__field__photo">
+							</div>
+							<div class="sharedLinkText">
+								<div class="sharedLinkTitle">
+									<a href="#">Lorem ipsum dolor</a>
+								</div>
+								<div class="sharedLinkAnounce">
+									Lorem ipsum dolor sit amet, consectetur adipisicing ips...
+								</div>	
+							</div>
+							
+
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+		<div class="blocked__activity__bottom">
+			<a href="#">Show earlier activity <i class="fas fa-caret-down"></i></a>
+		</div>
+	</div>
+	<div class="blocked__suggestions">
+		<div class="blocked__suggestions__field">
+			<div class="blocked__suggestions__field__labeling__label">Suggestions
+			</div>
+			<div class="blocked__suggestions__field__content">
+				<div class="blocked__suggestions__field__content__item">
+					<div class="avatar">
+						<img src="http://via.placeholder.com/50x50" class="avatarRound50x50">
+						<div class="avatar__onlineCircle">
+						</div>
+					</div>
+					<div class="blocked__suggestions__field__content__item__person">
+						<a href="#">
+							<div class="blocked__suggestions__field__content__item__person__name">
+							Alex Wayne <i class="fas fa-mobile-alt"></i>
+							</div>
+							<div class="blocked__suggestions__field__content__item__person__name__isByMobile">
+								
+							</div>
+						</a>
+						<div class="blocked__suggestions__field__content__item__person__about">
+							Artist
+						</div>
+						
+					</div>
+						
+
+					<a href="#">
+						<div class="blocked__suggestions__field__content__item__add">
+							+Add
+						</div>
+					</a>
+				</div>
+				<div class="blocked__suggestions__field__content__item">
+					<div class="avatar">
+						<img src="http://via.placeholder.com/50x50" class="avatarRound50x50">
+						<div class="avatar__onlineCircle">
+						</div>
+					</div>
+					<div class="blocked__suggestions__field__content__item__person">
+						<a href="#">
+							<div class="blocked__suggestions__field__content__item__person__name">
+							Alex Wayne <i class="fas fa-mobile-alt"></i>
+							</div>
+							<div class="blocked__suggestions__field__content__item__person__name__isByMobile">
+								
+							</div>
+						</a>
+						<div class="blocked__suggestions__field__content__item__person__about">
+							Artist
+						</div>
+						
+					</div>
+						
+
+					<a href="#">
+						<div class="blocked__suggestions__field__content__item__add">
+							+Add
+						</div>
+					</a>
+				</div>
+				<div class="blocked__suggestions__field__content__item">
+					<div class="avatar">
+						<img src="http://via.placeholder.com/50x50" class="avatarRound50x50">
+						<div class="avatar__onlineCircle">
+						</div>
+					</div>
+					<div class="blocked__suggestions__field__content__item__person">
+						<a href="#">
+							<div class="blocked__suggestions__field__content__item__person__name">
+							Alex Wayne <i class="fas fa-mobile-alt"></i>
+							</div>
+							<div class="blocked__suggestions__field__content__item__person__name__isByMobile">
+								
+							</div>
+						</a>
+						<div class="blocked__suggestions__field__content__item__person__about">
+							Artist
+						</div>
+						
+					</div>
+						
+
+					<a href="#">
+						<div class="blocked__suggestions__field__content__item__add">
+							+Add
+						</div>
+					</a>
+				</div>
+				<div class="blocked__suggestions__field__content__item">
+					<div class="avatar">
+						<img src="http://via.placeholder.com/50x50" class="avatarRound50x50">
+						<div class="avatar__onlineCircle">
+						</div>
+					</div>
+					<div class="blocked__suggestions__field__content__item__person">
+						<a href="#">
+							<div class="blocked__suggestions__field__content__item__person__name">
+							Alex Wayne <i class="fas fa-mobile-alt"></i>
+							</div>
+							<div class="blocked__suggestions__field__content__item__person__name__isByMobile">
+								
+							</div>
+						</a>
+						<div class="blocked__suggestions__field__content__item__person__about">
+							Artist
+						</div>
+						
+					</div>
+						
+
+					<a href="#">
+						<div class="blocked__suggestions__field__content__item__add">
+							+Add
+						</div>
+					</a>
+				</div>
+				<div class="blocked__suggestions__field__content__item">
+					<div class="avatar">
+						<img src="http://via.placeholder.com/50x50" class="avatarRound50x50">
+						<div class="avatar__onlineCircle">
+						</div>
+					</div>
+					<div class="blocked__suggestions__field__content__item__person">
+						<a href="#">
+							<div class="blocked__suggestions__field__content__item__person__name">
+							Alex Wayne <i class="fas fa-mobile-alt"></i>
+							</div>
+							<div class="blocked__suggestions__field__content__item__person__name__isByMobile">
+								
+							</div>
+						</a>
+						<div class="blocked__suggestions__field__content__item__person__about">
+							Artist
+						</div>
+						
+					</div>
+						
+
+					<a href="#">
+						<div class="blocked__suggestions__field__content__item__add">
+							+Add
+						</div>
+					</a>
+				</div>
+				<div class="blocked__suggestions__field__content__item">
+					<div class="avatar">
+						<img src="http://via.placeholder.com/50x50" class="avatarRound50x50">
+						<div class="avatar__onlineCircle">
+						</div>
+					</div>
+					<div class="blocked__suggestions__field__content__item__person">
+						<a href="#">
+							<div class="blocked__suggestions__field__content__item__person__name">
+							Alex Wayne <i class="fas fa-mobile-alt"></i>
+							</div>
+							<div class="blocked__suggestions__field__content__item__person__name__isByMobile">
+								
+							</div>
+						</a>
+						<div class="blocked__suggestions__field__content__item__person__about">
+							Artist
+						</div>
+						
+					</div>
+						
+
+					<a href="#">
+						<div class="blocked__suggestions__field__content__item__add">
+							+Add
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="blocked__suggestions__bottom">
+			<a href="#">Show 10 more <i class="fas fa-caret-down"></i></a>
+		</div>
+	</div>
+		
+		
+	
+	<div class="blocked__personalChat">
+		<div class="blocked__personalChat__topbar">
+			<div class="blocked__personalChat__topbar__left">
+				<div class="blocked__personalChat__topbar__left__avatar">
+					<img src="http://via.placeholder.com/35x35" class="avatarRound35x35">
+				</div>
+				<div class="blocked__personalChat__topbar__left__name">
+					Alex Wayne
+				</div>
+				<div class="blocked__personalChat__topbar__left__isOnline">
+					<i class="fas fa-circle"></i>
+				</div>
+			</div>
+			<div class="blocked__personalChat__topbar__right">
+				<div class="blocked__personalChat__topbar__right__options">
+					<i class="fas fa-cogs"></i>
+				</div>
+				<div class="blocked__personalChat__topbar__right__fullScreen">
+					<i class="far fa-window-maximize"></i>
+				</div>
+				<div class="blocked__personalChat__topbar__right__close">
+					<i class="fas fa-times"></i>
+				</div>
+
+			</div>
+
+		</div>
+		<div class="blocked__personalChat__chat">
+			<div class="blocked__personalChat__chat__messages">
+				<div class="blocked__personalChat__chat__messages__incomming">
+					<div class="wrapperMessage1">
+						<div class="blocked__personalChat__chat__messages__incomming__tale">
+							<div class="blocked__personalChat__chat__messages__incomming__tale__eater"></div>
+						</div>
+						<div class="blocked__personalChat__chat__messages__incomming__content">
+							<div class="blocked__personalChat__chat__messages__incomming__content__text">
+								dddddddddddddddddddddddddddddddddddddddddddddddddd
+							</div>
+						</div>
+					</div>
+					<div class="blocked__personalChat__chat__messages__incomming__date">
+						Sat, Aug 23, 1:08 PM
+					</div>
+					
+				</div>
+				<div class="blocked__personalChat__chat__messages__incomming">
+					<div class="wrapperMessage1">
+						<div class="blocked__personalChat__chat__messages__incomming__tale">
+							<div class="blocked__personalChat__chat__messages__incomming__tale__eater"></div>
+						</div>
+						<div class="blocked__personalChat__chat__messages__incomming__content">
+							<div class="blocked__personalChat__chat__messages__incomming__content__text">
+								ddddddddddd 
+							</div>
+						</div>
+					</div>
+					<div class="blocked__personalChat__chat__messages__incomming__date">
+						Sat, Aug 23, 1:08 PM
+					</div>
+				</div>
+				<div class="blocked__personalChat__chat__messages__outcomming">
+					<div class="wrapperMessage2">
+						
+						<div class="blocked__personalChat__chat__messages__outcomming__content">
+							<div class="blocked__personalChat__chat__messages__outcomming__content__text">
+								ddddddddddd 
+							</div>
+						</div>
+						<div class="blocked__personalChat__chat__messages__outcomming__tale">
+							<div class="blocked__personalChat__chat__messages__outcomming__tale__eater"></div>
+						</div>
+					</div>
+					<div class="blocked__personalChat__chat__messages__outcomming__date">
+						Sat, Aug 23, 1:08 PM
+					</div>
+				</div>
+
+				<div class="blocked__personalChat__chat__messages__separator">
+					<div class="blocked__personalChat__chat__messages__separator__line"></div>
+					<div class="blocked__personalChat__chat__messages__separator__date">Sat, Aug 24</div>
+					<div class="blocked__personalChat__chat__messages__separator__line"></div>
+				</div>
+
+				<div class="blocked__personalChat__chat__messages__incomming">
+					<div class="wrapperMessage1">
+						<div class="blocked__personalChat__chat__messages__incomming__tale">
+							<div class="blocked__personalChat__chat__messages__incomming__tale__eater"></div>
+						</div>
+						<div class="blocked__personalChat__chat__messages__incomming__content">
+							<div class="blocked__personalChat__chat__messages__incomming__content__text">
+								dddddddddddddddddddddddddddddddddddddddddddddddddd
+							</div>
+						</div>
+					</div>
+					<div class="blocked__personalChat__chat__messages__incomming__date">
+						Sat, Aug 23, 1:08 PM
+					</div>
+					
+				</div>
+				<div class="blocked__personalChat__chat__messages__incomming">
+					<div class="wrapperMessage1">
+						<div class="blocked__personalChat__chat__messages__incomming__tale">
+							<div class="blocked__personalChat__chat__messages__incomming__tale__eater"></div>
+						</div>
+						<div class="blocked__personalChat__chat__messages__incomming__content">
+							<div class="blocked__personalChat__chat__messages__incomming__content__text">
+								ddddddddddd 
+							</div>
+						</div>
+					</div>
+					<div class="blocked__personalChat__chat__messages__incomming__date">
+						Sat, Aug 23, 1:08 PM
+					</div>
+				</div>
+				<div class="blocked__personalChat__chat__messages__outcomming">
+					<div class="wrapperMessage2">
+						
+						<div class="blocked__personalChat__chat__messages__outcomming__content">
+							<div class="blocked__personalChat__chat__messages__outcomming__content__text">
+								ddddddddddd 
+							</div>
+						</div>
+						<div class="blocked__personalChat__chat__messages__outcomming__tale">
+							<div class="blocked__personalChat__chat__messages__outcomming__tale__eater"></div>
+						</div>
+					</div>
+					<div class="blocked__personalChat__chat__messages__outcomming__date">
+						Sat, Aug 23, 1:08 PM
+					</div>
+				</div>
+
+				<div class="blocked__personalChat__chat__messages__incomming">
+					<div class="wrapperMessage1">
+						<div class="blocked__personalChat__chat__messages__incomming__tale">
+							<div class="blocked__personalChat__chat__messages__incomming__tale__eater"></div>
+						</div>
+						<div class="blocked__personalChat__chat__messages__incomming__content">
+							<div class="blocked__personalChat__chat__messages__incomming__content__text">
+								dddddddddddddddddddddddddddddddddddddddddddddddddd
+							</div>
+						</div>
+					</div>
+					<div class="blocked__personalChat__chat__messages__incomming__date">
+						Sat, Aug 23, 1:08 PM
+					</div>
+					
+				</div>
+				<div class="blocked__personalChat__chat__messages__incomming">
+					<div class="wrapperMessage1">
+						<div class="blocked__personalChat__chat__messages__incomming__tale">
+							<div class="blocked__personalChat__chat__messages__incomming__tale__eater"></div>
+						</div>
+						<div class="blocked__personalChat__chat__messages__incomming__content">
+							<div class="blocked__personalChat__chat__messages__incomming__content__text">
+								ddddddddddd 
+							</div>
+						</div>
+					</div>
+					<div class="blocked__personalChat__chat__messages__incomming__date">
+						Sat, Aug 23, 1:08 PM
+					</div>
+				</div>
+				<div class="blocked__personalChat__chat__messages__outcomming">
+					<div class="wrapperMessage2">
+						
+						<div class="blocked__personalChat__chat__messages__outcomming__content">
+							<div class="blocked__personalChat__chat__messages__outcomming__content__text">
+								ddddddddddd 
+							</div>
+						</div>
+						<div class="blocked__personalChat__chat__messages__outcomming__tale">
+							<div class="blocked__personalChat__chat__messages__outcomming__tale__eater"></div>
+						</div>
+					</div>
+					<div class="blocked__personalChat__chat__messages__outcomming__date">
+						Sat, Aug 23, 1:08 PM
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+		<DIV class="blocked__personalChat__chat__compose">
+				<div class="blocked__personalChat__chat__compose__smiles">
+					<i class="far fa-smile"></i>
+				</div>
+				<div class="blocked__personalChat__chat__compose__input">
+					<input type="text" name="Message" autofocus >
+				</div>
+				<div class="blocked__personalChat__chat__compose__attachment">
+					<i class="fas fa-paperclip"></i>
+				</div>
+		</DIV>
+		
+	</div>
+</div>
+
+<div class="dialogues">
+	<div class="dialogues__dialogues">
+		<div class="dialogues__dialogues__header">
+			<div class="dialogues__dialogues__header__text">
+				Dialogues (2)
+			</div>
+			<div class="dialogues__dialogues__header__buttons">
+				<div class="dialogues__dialogues__header__buttons__item"><i class="fas fa-search"></i></div>
+				<div class="dialogues__dialogues__header__buttons__item"><i class="fas fa-volume-off"></i></div>
+				<div class="dialogues__dialogues__header__buttons__item"><i class="fas fa-exclamation-triangle"></i></div>
+			</div>
+		</div>
+		
+		<div class="dialogues__dialogues__conversations">
+			<a href="#">
+			<div class="dialogues__dialogues__conversations__item">
+				<div class="dialogues__dialogues__conversations__item__avatar">
+					<img src="http://via.placeholder.com/48x48" alt="#" class="avatarRound35x35">
+					<div class="dialogues__dialogues__conversations__item__avatar__isonline">
+						
+					</div>
+				</div>
+				<div class="dialogues__dialogues__conversations__item__nameAndLastMessage">
+					<div class="dialogues__dialogues__conversations__item__nameAndLastMessage__name">
+						Alex Wayne
+					</div>
+					<div class="dialogues__dialogues__conversations__item__nameAndLastMessage__lastMessage">
+						Lorem ipsum dolor
+					</div>
+				</div>
+				<div class="dialogues__dialogues__timeAndUnread">
+					<div class="dialogues__dialogues__timeAndUnread__time">
+						1:55 PM
+					</div>
+					<div class="dialogues__dialogues__timeAndUnread__unread">
+						2
+					</div>
+				</div>
+			</div>
+			</a>
+			<a href="#">
+			<div class="dialogues__dialogues__conversations__item">
+				<div class="dialogues__dialogues__conversations__item__avatar">
+					<img src="http://via.placeholder.com/48x48" alt="#" class="avatarRound35x35">
+					<div class="dialogues__dialogues__conversations__item__avatar__isonline">
+						
+					</div>
+				</div>
+				<div class="dialogues__dialogues__conversations__item__nameAndLastMessage">
+					<div class="dialogues__dialogues__conversations__item__nameAndLastMessage__name">
+						Alex Wayne
+					</div>
+					<div class="dialogues__dialogues__conversations__item__nameAndLastMessage__lastMessage">
+						Lorem ipsum dolor
+					</div>
+				</div>
+				<div class="dialogues__dialogues__timeAndUnread">
+					<div class="dialogues__dialogues__timeAndUnread__time">
+						1:55 PM
+					</div>
+					<div class="dialogues__dialogues__timeAndUnread__unread">
+						2
+					</div>
+				</div>
+			</div>
+			</a>
+			<a href="#">
+			<div class="dialogues__dialogues__conversations__item">
+				<div class="dialogues__dialogues__conversations__item__avatar">
+					<img src="http://via.placeholder.com/48x48" alt="#" class="avatarRound35x35">
+					<div class="dialogues__dialogues__conversations__item__avatar__isonline">
+						
+					</div>
+				</div>
+				<div class="dialogues__dialogues__conversations__item__nameAndLastMessage">
+					<div class="dialogues__dialogues__conversations__item__nameAndLastMessage__name">
+						Alex Wayne
+					</div>
+					<div class="dialogues__dialogues__conversations__item__nameAndLastMessage__lastMessage">
+						Lorem ipsum dolor
+					</div>
+				</div>
+				<div class="dialogues__dialogues__timeAndUnread">
+					<div class="dialogues__dialogues__timeAndUnread__time">
+						1:55 PM
+					</div>
+					<div class="dialogues__dialogues__timeAndUnread__unread">
+						2
+					</div>
+				</div>
+			</div>
+			</a>
+			<a href="#">
+			<div class="dialogues__dialogues__conversations__item">
+				<div class="dialogues__dialogues__conversations__item__avatar">
+					<img src="http://via.placeholder.com/48x48" alt="#" class="avatarRound35x35">
+					<div class="dialogues__dialogues__conversations__item__avatar__isonline">
+						
+					</div>
+				</div>
+				<div class="dialogues__dialogues__conversations__item__nameAndLastMessage">
+					<div class="dialogues__dialogues__conversations__item__nameAndLastMessage__name">
+						Alex Wayne
+					</div>
+					<div class="dialogues__dialogues__conversations__item__nameAndLastMessage__lastMessage">
+						Lorem ipsum dolor
+					</div>
+				</div>
+				<div class="dialogues__dialogues__timeAndUnread">
+					<div class="dialogues__dialogues__timeAndUnread__time">
+						1:55 PM
+					</div>
+					<div class="dialogues__dialogues__timeAndUnread__unread">
+						2
+					</div>
+				</div>
+			</div>
+			</a><a href="#">
+			<div class="dialogues__dialogues__conversations__item">
+				<div class="dialogues__dialogues__conversations__item__avatar">
+					<img src="http://via.placeholder.com/48x48" alt="#" class="avatarRound35x35">
+					<div class="dialogues__dialogues__conversations__item__avatar__isonline">
+						
+					</div>
+				</div>
+				<div class="dialogues__dialogues__conversations__item__nameAndLastMessage">
+					<div class="dialogues__dialogues__conversations__item__nameAndLastMessage__name">
+						Alex Wayne
+					</div>
+					<div class="dialogues__dialogues__conversations__item__nameAndLastMessage__lastMessage">
+						Lorem ipsum dolor
+					</div>
+				</div>
+				<div class="dialogues__dialogues__timeAndUnread">
+					<div class="dialogues__dialogues__timeAndUnread__time">
+						1:55 PM
+					</div>
+					<div class="dialogues__dialogues__timeAndUnread__unread">
+						2
+					</div>
+				</div>
+			</div>
+			</a>
+			<a href="#">
+			<div class="dialogues__dialogues__conversations__item">
+				<div class="dialogues__dialogues__conversations__item__avatar">
+					<img src="http://via.placeholder.com/48x48" alt="#" class="avatarRound35x35">
+					<div class="dialogues__dialogues__conversations__item__avatar__isonline">
+						
+					</div>
+				</div>
+				<div class="dialogues__dialogues__conversations__item__nameAndLastMessage">
+					<div class="dialogues__dialogues__conversations__item__nameAndLastMessage__name">
+						Alex Wayne
+					</div>
+					<div class="dialogues__dialogues__conversations__item__nameAndLastMessage__lastMessage">
+						Lorem ipsum dolor
+					</div>
+				</div>
+				<div class="dialogues__dialogues__timeAndUnread">
+					<div class="dialogues__dialogues__timeAndUnread__time">
+						1:55 PM
+					</div>
+					<div class="dialogues__dialogues__timeAndUnread__unread">
+						2
+					</div>
+				</div>
+			</div>
+			</a>
+			<a href="#">
+			<div class="dialogues__dialogues__conversations__item">
+				<div class="dialogues__dialogues__conversations__item__avatar">
+					<img src="http://via.placeholder.com/48x48" alt="#" class="avatarRound35x35">
+					<div class="dialogues__dialogues__conversations__item__avatar__isonline">
+						
+					</div>
+				</div>
+				<div class="dialogues__dialogues__conversations__item__nameAndLastMessage">
+					<div class="dialogues__dialogues__conversations__item__nameAndLastMessage__name">
+						Alex Wayne
+					</div>
+					<div class="dialogues__dialogues__conversations__item__nameAndLastMessage__lastMessage">
+						Lorem ipsum dolor
+					</div>
+				</div>
+				<div class="dialogues__dialogues__timeAndUnread">
+					<div class="dialogues__dialogues__timeAndUnread__time">
+						1:55 PM
+					</div>
+					<div class="dialogues__dialogues__timeAndUnread__unread">
+						2
+					</div>
+				</div>
+			</div>
+			</a>
+			<a href="#">
+			<div class="dialogues__dialogues__conversations__item">
+				<div class="dialogues__dialogues__conversations__item__avatar">
+					<img src="http://via.placeholder.com/48x48" alt="#" class="avatarRound35x35">
+					<div class="dialogues__dialogues__conversations__item__avatar__isonline">
+						
+					</div>
+				</div>
+				<div class="dialogues__dialogues__conversations__item__nameAndLastMessage">
+					<div class="dialogues__dialogues__conversations__item__nameAndLastMessage__name">
+						Alex Wayne
+					</div>
+					<div class="dialogues__dialogues__conversations__item__nameAndLastMessage__lastMessage">
+						Lorem ipsum dolor
+					</div>
+				</div>
+				<div class="dialogues__dialogues__timeAndUnread">
+					<div class="dialogues__dialogues__timeAndUnread__time">
+						1:55 PM
+					</div>
+					<div class="dialogues__dialogues__timeAndUnread__unread">
+						2
+					</div>
+				</div>
+			</div>
+			</a>
+			<a href="#">
+			<div class="dialogues__dialogues__conversations__item">
+				<div class="dialogues__dialogues__conversations__item__avatar">
+					<img src="http://via.placeholder.com/48x48" alt="#" class="avatarRound35x35">
+					<div class="dialogues__dialogues__conversations__item__avatar__isonline">
+						
+					</div>
+				</div>
+				<div class="dialogues__dialogues__conversations__item__nameAndLastMessage">
+					<div class="dialogues__dialogues__conversations__item__nameAndLastMessage__name">
+						Alex Wayne
+					</div>
+					<div class="dialogues__dialogues__conversations__item__nameAndLastMessage__lastMessage">
+						Lorem ipsum dolor
+					</div>
+				</div>
+				<div class="dialogues__dialogues__timeAndUnread">
+					<div class="dialogues__dialogues__timeAndUnread__time">
+						1:55 PM
+					</div>
+					<div class="dialogues__dialogues__timeAndUnread__unread">
+						2
+					</div>
+				</div>
+			</div>
+			</a>
+			<a href="#">
+			<div class="dialogues__dialogues__conversations__item">
+				<div class="dialogues__dialogues__conversations__item__avatar">
+					<img src="http://via.placeholder.com/48x48" alt="#" class="avatarRound35x35">
+					<div class="dialogues__dialogues__conversations__item__avatar__isonline">
+						
+					</div>
+				</div>
+				<div class="dialogues__dialogues__conversations__item__nameAndLastMessage">
+					<div class="dialogues__dialogues__conversations__item__nameAndLastMessage__name">
+						Alex Wayne
+					</div>
+					<div class="dialogues__dialogues__conversations__item__nameAndLastMessage__lastMessage">
+						Lorem ipsum dolor
+					</div>
+				</div>
+				<div class="dialogues__dialogues__timeAndUnread">
+					<div class="dialogues__dialogues__timeAndUnread__time">
+						1:55 PM
+					</div>
+					<div class="dialogues__dialogues__timeAndUnread__unread">
+						2
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>
+		
+
+	</div>
+	<div class="dialogues__current">
+		<div class="dialogues__current__header">
+			<div class="dialogues__current__header__content">
+				<div class="dialogues__current__header__content__person">
+					<div class="dialogues__current__header__content__person__avatar">
+						<img src="http://via.placeholder.com/48x48" alt="" class="avatarRound35x35">
+					</div>
+					<div class="dialogues__current__header__content__person_nameOnline">
+						<div class="dialogues__current__header__content__person_nameOnline__name">
+							Alex Wayne
+						</div>
+						<div class="dialogues__current__header__content__person_nameOnline__online">
+							<div class="dialogues__current__header__content__person_nameOnline__online__phone">
+								<i class="fas fa-mobile-alt"></i>
+							</div>
+							<div class="dialogues__current__header__content__person_nameOnline__online__status">
+								Online
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="dialogues__current__header__content__buttons">
+					<a href="#" class="dialogues__current__header__content__buttons__add"><i class="fas fa-user-plus"></i></a>
+					<a href="#" class="dialogues__current__header__content__buttons__options"><i class="fas fa-cog"></i></a>
+					<a href="#" class="dialogues__current__header__content__buttons__close"><i class="fas fa-times"></i></a>
+
+				</div>
+			</div>
+		</div>
+		<div class="dialogues__current__messages">
+			
+		</div>
+		<div class="dialogues__current__compose">
+			<div class="dialogues__current__compose__data">
+				<div class="dialogues__current__compose__data__input">
+					<input type="text">
+				</div>
+				<div class="dialogues__current__compose__data__bottomBar">
+				<div class="dialogues__current__compose__data__bottomBar__smiles">
+					<div class="dialogues__current__compose__data__bottomBar__smiles__set">
+						<i class="far fa-smile"></i>
+					</div>
+					<div class="dialogues__current__compose__data__bottomBar__smiles__separator">
+						
+					</div>
+					<div class="dialogues__current__compose__data__bottomBar__smiles__used">
+						<i class="em-svg em-shark"></i>
+						<i class="em-svg em-avocado"></i>
+						<i class="em-svg em-anguished"></i>
+					</div>
+				</div>
+					<div class="dialogues__current__compose__data__bottomBar__attach">
+						<a href="#">Attach</a><i class="fas fa-caret-down"></i>
+					</div>
+
+				</div>
+			</div>
+			<div class="dialogues__current__compose__data__sendButton">Send</div>
+			
+		</div>
+	</div>
+
+
+</div>
+
+</body>
+</html>
